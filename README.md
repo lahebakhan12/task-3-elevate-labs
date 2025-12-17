@@ -1,79 +1,23 @@
-task 3 Elevate-Labs
-Objective
+Task 3: SQL Data Analysis – Elevate Labs 
 
-Analyze an E-commerce database using SQL to extract insights, create reusable views, optimize queries with indexes, and validate data accuracy.
+Created an E-commerce database with tables: customers, products, orders, order_items
 
-Tools Used
+Inserted and verified realistic sample data
 
-MySQL – database creation and query execution
+Analyzed customer revenue to identify top revenue-generating customers
 
-Git & GitHub – version control
+Analyzed product performance to find best-selling and highest revenue products
 
-Word – documentation of queries and outputs
+Analyzed city-wise revenue to determine highest revenue-generating regions
 
-Database & Tables
+Created a VIEW for customer lifetime value for reusable analysis
 
-Database: elevate_labs_ecommerce
-Tables: customers, products, orders, order_items
+Used subqueries to identify products earning above-average revenue
 
-Tables created with proper primary and foreign keys
+Validated data by checking that orders.total_amount matches sum of order_items
 
-Sample data inserted and verified
+Added indexes to optimize JOINs and aggregation queries for performance
 
-Key Analyses Performed
+Insights: top customers contribute most revenue, electronics dominate sales, and highest revenue cities are Delhi, Mumbai, and Bangalore
 
-Customer Revenue Analysis
-
-Identified top revenue-generating customers using JOINs and aggregation.
-
-Screenshots captured for output.
-
-Product Performance Analysis
-
-Calculated quantity sold and total revenue per product.
-
-Highlights top-performing products.
-
-City-wise Revenue Analysis
-
-Aggregated revenue by city to determine highest revenue-generating regions.
-
-Customer Lifetime Value (VIEW)
-
-Created a reusable view for total revenue per customer.
-
-Advanced Product Revenue Analysis
-
-Identified products earning above-average revenue using subqueries.
-
-Data Validation
-
-Verified that orders.total_amount matches sum of order_items.
-
-No inconsistencies found.
-
-Query Optimization
-
-Added indexes on key columns (customer_id, order_id, product_id, city)
-
-Improved JOIN and aggregation query performance.
-
-Insights
-
-Top customers contribute most revenue → potential loyalty targets.
-
-Electronics category dominates sales.
-
-Highest revenue cities: Delhi, Mumbai, Bangalore.
-
-All totals validated, ensuring data accuracy.
-
-Conclusion
-
-All queries executed and optimized.
-
-Views and indexes implemented professionally.
-
-Data validated for accuracy.
-
-Project demonstrates real-world SQL and analytical thinking.
+Ensured data consistency, making the project professional and submission-ready
