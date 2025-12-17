@@ -1,30 +1,79 @@
-# Task 3: SQL Data Analysis – Elevate Labs Internship
+task 3 Elevate-Labs
+Objective
 
-## Objective
-Analyze an e-commerce database using SQL to extract meaningful business insights.
+Analyze an E-commerce database using SQL to extract insights, create reusable views, optimize queries with indexes, and validate data accuracy.
 
-## Tools Used
-- MySQL
-- Git & GitHub
+Tools Used
 
-## Dataset
-E-commerce database with `customers`, `products`, `orders`, and `order_items`.
+MySQL – database creation and query execution
 
-## Key Analyses
-1. **Customer Revenue Analysis** – Identified top revenue-generating customers.
-2. **Product Performance Analysis** – Calculated total sales per product.
-3. **City-wise Revenue Analysis** – Determined cities with highest revenue.
-4. **Customer Lifetime Value View** – Reusable view for total revenue per customer.
-5. **Advanced Product Revenue Query** – Products earning above average revenue.
+Git & GitHub – version control
 
-## Optimizations
-- Created index on `order_items.order_id` to improve JOIN query performance.
+Word – documentation of queries and outputs
 
-## Data Validation
-- Verified that `orders.total_amount` matches sum of `order_items`. No inconsistencies found.
+Database & Tables
 
-## Insights
-- A small number of customers contribute the majority of revenue.
-- Electronics category dominates sales revenue.
-- Top cities: Delhi, Mumbai, Bangalore.
-- Product-level revenue helps in inventory and pricing strategy.
+Database: elevate_labs_ecommerce
+Tables: customers, products, orders, order_items
+
+Tables created with proper primary and foreign keys
+
+Sample data inserted and verified
+
+Key Analyses Performed
+
+Customer Revenue Analysis
+
+Identified top revenue-generating customers using JOINs and aggregation.
+
+Screenshots captured for output.
+
+Product Performance Analysis
+
+Calculated quantity sold and total revenue per product.
+
+Highlights top-performing products.
+
+City-wise Revenue Analysis
+
+Aggregated revenue by city to determine highest revenue-generating regions.
+
+Customer Lifetime Value (VIEW)
+
+Created a reusable view for total revenue per customer.
+
+Advanced Product Revenue Analysis
+
+Identified products earning above-average revenue using subqueries.
+
+Data Validation
+
+Verified that orders.total_amount matches sum of order_items.
+
+No inconsistencies found.
+
+Query Optimization
+
+Added indexes on key columns (customer_id, order_id, product_id, city)
+
+Improved JOIN and aggregation query performance.
+
+Insights
+
+Top customers contribute most revenue → potential loyalty targets.
+
+Electronics category dominates sales.
+
+Highest revenue cities: Delhi, Mumbai, Bangalore.
+
+All totals validated, ensuring data accuracy.
+
+Conclusion
+
+All queries executed and optimized.
+
+Views and indexes implemented professionally.
+
+Data validated for accuracy.
+
+Project demonstrates real-world SQL and analytical thinking.
